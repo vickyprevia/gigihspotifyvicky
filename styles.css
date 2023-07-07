@@ -1,0 +1,75 @@
+body {
+    font-color: #ffffff;
+    font-family: 'Montserrat', sans-serif;
+    background-color: #121212;
+}
+
+h1 {
+    color: #ffffff;
+    border-bottom: 2px solid;
+    border-color: #181818;
+    margin: auto 30px;
+}
+
+.btn {
+    background-color: #1DB954;
+    border-color: #1DB954;
+    border-radius: 10px;
+    color: #ffffff;
+    cursor: pointer;
+    position: absolute;
+    bottom: 20px;
+}
+
+.all-songs {
+    padding: 20px 50px;
+}
+
+.most-played {
+    padding: 20px 50px;
+}
+
+h2 {
+    color: #ffffff;
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+.list {
+    display: flex;
+    font-size: 20px;
+    overflow: hidden;
+    gap: 10px;
+    border-bottom: 2px solid;
+    border-color: #181818;
+}
+
+.item {
+    min-width: 140px;
+    width: 160px;
+    padding: 15px;
+    background-color: #181818;
+    border-radius: 5px;
+    cursor: pointer;
+    position: relative;
+    margin-bottom: 20px;
+}
+
+img {
+    width: 100%;
+    border-radius: 2px;
+    margin-bottom: 10px;
+}
+
+.song-title {
+    font-size: 18px;
+    color: #ffffff;
+    margin-top: 0;
+}
+
+.artist {
+    font-size: 16px;
+    color: #ffffff;
+    margin-bottom: 50px;
+    margin-top: 0;
+}
